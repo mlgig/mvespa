@@ -1,0 +1,52 @@
+metadata_version: 1
+name: Machine Vision-Enabled Sports Performance Analysis
+description: 'Force plates and optical motion capture (OMC) are commonly used for
+  performance assessment during motor tasks. However, these systems are expensive
+  and available to a small few. In addition, OMC involves the careful placement of
+  markers for every session. Moreover, the awareness of markers may affect the athlete''s
+  performance. Therefore, recent research has focused on markerless motion capture
+  (MMC), especially now that people can independently record their daily activities
+  and physical tests using their own smartphones. However, there is still much to
+  be done in validating MMC systems based on accuracy requirements for different application
+  contexts. This study evaluates the accuracy and feasibility of MMC with a single
+  smartphone in measuring jump height, velocity, flight time, contact time, and range
+  of motion (ROM) during a wide range of motor tasks. Sixteen healthy adult volunteers
+  (mean age: 30.9 ± 7.2 years) each performed three repetitions of selected tests
+  while body movement was simultaneously recorded using force plates, OMC and a single
+  smartphone camera. Next, we performed MMC on the exercise videos using an open-source
+  OpenPose model. Then, we evaluated MMC in measuring participants'' performance with
+  the force plates and OMC as ground truths. MMC showed great promise in quantifying
+  jump heights and velocity with ICC up to 0.97. However, mostly poor agreement was
+  shown in measuring flight and contact time. For the ROM and angular velocity tests,
+  MMC showed poor to moderate agreement. These results suggest that monocular 2D MMC
+  may be a viable alternative to OMC or force plates, for objective assessment of
+  sports performance capacity during jumps and velocity-based tests, while for ROM
+  tests, MMC could be used for enhanced visual feedback.'
+tags:
+- Markerless motion capture
+- Optical motion capture
+- Sports performance analysis
+authors:
+- name: Timilehin B. Aderinola
+  affiliations:
+  - name: School of Computer Science, University College Dublin, Belfield, Ireland
+- name: Hananeh Younesian
+  affiliations:
+  - name: School of Public Health, Physiotherapy and Sports Science, University College
+      Dublin, Belfield, Ireland
+- name: Cathy Goulding
+  affiliations:
+  - name: Output Sports
+- name: Darragh Whelan
+  affiliations:
+  - name: Output Sports
+- name: Brian Caulfield
+  affiliations:
+  - name: School of Public Health, Physiotherapy and Sports Science, University College
+      Dublin, Belfield, Ireland
+- name: Georgiana Ifrim
+  affiliations:
+  - name: School of Computer Science, University College Dublin, Belfield, Ireland
+corresponding_contributor:
+  name: Timilehin B. Aderinola
+  email: timilehin.aderinola@ucd.ie

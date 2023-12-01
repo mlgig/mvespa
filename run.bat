@@ -1,0 +1,1 @@
+jupyter nbconvert --to 'notebook' --ExecutePreprocessor.allow_errors=True --ExecutePreprocessor.timeout=-1 --FilesWriter.build_directory=./results --execute results.ipynb
