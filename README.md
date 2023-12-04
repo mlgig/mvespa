@@ -11,5 +11,5 @@ To reproduce the results
 
 - Download this repository and unzip.
 - In the root directory, run `pip install -r requirements.txt`.
-- Run `run.bat` or `run.sh`. This will run the code in `results.ipynb` and may take between 60-120 seconds. You can then see the result in `results/main.ipynb`.
+- Run `run.bat` or `run.sh`. This will run the code in `results.ipynb` and may take between 60-120 seconds. You can then see the result in [`results/results.ipynb`](/results/results.ipynb).
   -- _Alternatively, you may also run `jupyter notebook` and manually run the `results.ipynb` notebook cell-by-cell._
